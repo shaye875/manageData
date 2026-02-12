@@ -1,0 +1,25 @@
+#terorist{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+.foont{
+    object-fit: cover;
+    width: 3rem;
+    height: 3rem;
+}
+#allTerorist{
+    width: 100vw;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+}
+.foontP{
+    font-size: 0.5rem;
+}
+#linefirst{
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+    gap: 5%;
+}
