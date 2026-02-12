@@ -8,7 +8,7 @@ const Terorist = (props) => {
             {props.img != null && <img src={props.img} alt="" className='foont' />}
             <p className='foontP'>{props.name}</p>
             <p className='foontP'>{props.organization}</p>
-            <p className='foontP'>{props.attacks}</p>
+            <p className='foontP blue'>attacks: {props.attacks}</p>
             <p className='foontP'>{props.status}</p>
             <p className='foontP'>{props.summary}</p>
         </div>

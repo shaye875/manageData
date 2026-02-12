@@ -9,10 +9,10 @@ function App() {
   
 
   return (
-    <>
+   <div id='all'>
 <Title />
 <Terorists />
-    </>
+    </div>
   )
 }
 

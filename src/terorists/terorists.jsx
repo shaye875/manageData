@@ -20,14 +20,14 @@ const Terorists = () => {
     
     return (
         <div>
-            <div>
-                <input onClick={() => {
+            <div id='options'>
+                <input className='option' onClick={() => {
                     setShowAll(false)
                 }} type="text" placeholder='Search by name' value={byName} onChange={(e) => setByName(e.target.value)} />
-                <input onClick={() => {
+                <input className='option' onClick={() => {
                     setShowAll(false)
                 }} type="text" placeholder='Search by atacts' value={byAttacts} onChange={(e) => seTbyattacts(e.target.value)} />
-                <select onClick={() => {
+                <select className='option' onClick={() => {
                 }} defaultValue={"all"} value={byStatus} onChange={(e) => setBystatus(e.target.value)} >
                     <option value="all">all</option>
                     <option value="active">active</option>
@@ -35,7 +35,7 @@ const Terorists = () => {
                     <option value="agent">agent</option>
                     <option value="dead">dead</option>
                 </select>
-                <button onClick={() => {
+                <button className='option' id='button' onClick={() => {
                     setShowAll(false)
                     setMostDangers(true)
                 }}>find most Dangerous</button>
